@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h3>Are you sure you want to remove the following course?</h3>
+    Name: {{ course.name }}
+    Description: {{ course.description }}
+  <a href="/no" id="no">No</a>
+  <a href="/yes/{{ course.id }}" id="yes">Yes! I want to delete this.</a>
+
+</body>
+</html>
